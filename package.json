@@ -14,7 +14,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -34,6 +36,6 @@
   "license": "ISC",
   "devDependencies": {
     "gh-pages": "^2.2.0"
-  }
-  //"homepage": "http://melkiy92.github.io/movie-portal-api-react"
+  },
+  "homepage": "http://melkiy92.github.io/movie-portal-api-react"
 }
